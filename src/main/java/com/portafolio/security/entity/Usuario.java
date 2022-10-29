@@ -1,4 +1,4 @@
-package com.daa2.security.entity;
+package com.portafolio.security.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

@@ -1,9 +1,10 @@
-package com.daa2.controller;
+package com.portafolio.controller;
 
-import com.daa2.entity.Persona;
-import com.daa2.interfaces.IPersonaService;
+import com.portafolio.entity.Persona;
+import com.portafolio.interfaces.IPersonaService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController

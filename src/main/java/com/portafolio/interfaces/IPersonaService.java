@@ -1,6 +1,7 @@
-package com.daa2.interfaces;
+package com.portafolio.interfaces;
 
-import com.daa2.entity.Persona;
+import com.portafolio.entity.Persona;
+
 import java.util.List;
 
 public interface IPersonaService {

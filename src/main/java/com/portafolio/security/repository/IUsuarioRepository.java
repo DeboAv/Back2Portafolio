@@ -1,6 +1,6 @@
-package com.daa2.security.repository;
+package com.portafolio.security.repository;
 
-import com.daa2.security.entity.Usuario;
+import com.portafolio.security.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

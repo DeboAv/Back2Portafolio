@@ -1,6 +1,7 @@
-package com.daa2.entity;
+package com.portafolio.entity;
 
 import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

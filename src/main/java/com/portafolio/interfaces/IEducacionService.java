@@ -1,6 +1,7 @@
-package com.daa2.interfaces;
+package com.portafolio.interfaces;
 
-import com.daa2.entity.Educacion;
+import com.portafolio.entity.Educacion;
+
 import java.util.List;
 import java.util.Optional;
 

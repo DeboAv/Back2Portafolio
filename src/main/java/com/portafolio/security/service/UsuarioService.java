@@ -1,7 +1,7 @@
-package com.daa2.security.service;
+package com.portafolio.security.service;
 
-import com.daa2.security.entity.Usuario;
-import com.daa2.security.repository.IUsuarioRepository;
+import com.portafolio.security.entity.Usuario;
+import com.portafolio.security.repository.IUsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

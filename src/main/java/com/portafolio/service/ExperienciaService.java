@@ -1,11 +1,8 @@
-package com.daa2.service;
+package com.portafolio.service;
 
-import com.daa2.entity.Experiencia;
-import com.daa2.entity.Persona;
-import com.daa2.interfaces.IExperienciaService;
-import com.daa2.interfaces.IPersonaService;
-import com.daa2.repository.IExperienciaRepository;
-import com.daa2.repository.IPersonaRepository;
+import com.portafolio.entity.Experiencia;
+import com.portafolio.interfaces.IExperienciaService;
+import com.portafolio.repository.IExperienciaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

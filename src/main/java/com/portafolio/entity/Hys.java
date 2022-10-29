@@ -1,4 +1,4 @@
-package com.daa2.entity;
+package com.portafolio.entity;
 
 
 import javax.persistence.Entity;

@@ -1,6 +1,6 @@
-package com.daa2.repository;
+package com.portafolio.repository;
 
-import com.daa2.entity.Persona;
+import com.portafolio.entity.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

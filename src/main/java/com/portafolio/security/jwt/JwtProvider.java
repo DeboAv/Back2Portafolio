@@ -1,18 +1,14 @@
-package com.daa2.security.jwt;
+package com.portafolio.security.jwt;
 
-import com.daa2.security.entity.UsuarioPrincipal;
-import io.jsonwebtoken.ExpiredJwtException;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.MalformedJwtException;
-import io.jsonwebtoken.SignatureAlgorithm;
-import io.jsonwebtoken.SignatureException;
-import io.jsonwebtoken.UnsupportedJwtException;
-import java.util.Date;
+import com.portafolio.security.entity.UsuarioPrincipal;
+import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
+
+import java.util.Date;
 
 @Component
 public class JwtProvider {

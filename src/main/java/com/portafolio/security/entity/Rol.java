@@ -1,6 +1,6 @@
-package com.daa2.security.entity;
+package com.portafolio.security.entity;
 
-import com.daa2.security.enums.RolNombre;
+import com.portafolio.security.enums.RolNombre;
 import lombok.Data;
 
 import javax.persistence.*;

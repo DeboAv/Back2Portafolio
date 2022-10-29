@@ -1,15 +1,16 @@
-package com.daa2.controller;
+package com.portafolio.controller;
 
-import com.daa2.Dto.DtoExperiencia;
-import com.daa2.entity.Experiencia;
-import com.daa2.interfaces.IExperienciaService;
-import com.daa2.security.controller.Mensaje;
+import com.portafolio.Dto.DtoExperiencia;
+import com.portafolio.entity.Experiencia;
+import com.portafolio.interfaces.IExperienciaService;
+import com.portafolio.security.controller.Mensaje;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController

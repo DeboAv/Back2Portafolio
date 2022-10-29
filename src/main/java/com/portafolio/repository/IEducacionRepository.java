@@ -1,9 +1,10 @@
-package com.daa2.repository;
+package com.portafolio.repository;
 
-import java.util.Optional;
-import com.daa2.entity.Educacion;
+import com.portafolio.entity.Educacion;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
 
 @Repository
 public interface IEducacionRepository extends JpaRepository<Educacion, Integer>{

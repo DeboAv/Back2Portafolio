@@ -1,8 +1,8 @@
-package com.daa2.security;
+package com.portafolio.security;
 
-import com.daa2.security.jwt.JwtEntryPoint;
-import com.daa2.security.jwt.JwtTokenFilter;
-import com.daa2.security.service.UserDetailServiceImpl;
+import com.portafolio.security.jwt.JwtEntryPoint;
+import com.portafolio.security.jwt.JwtTokenFilter;
+import com.portafolio.security.service.UserDetailServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

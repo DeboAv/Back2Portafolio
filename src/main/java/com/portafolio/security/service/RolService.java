@@ -1,10 +1,11 @@
-package com.daa2.security.service;
+package com.portafolio.security.service;
 
-import com.daa2.security.entity.Rol;
-import com.daa2.security.enums.RolNombre;
-import com.daa2.security.repository.IRolRepository;
+import com.portafolio.security.entity.Rol;
+import com.portafolio.security.enums.RolNombre;
+import com.portafolio.security.repository.IRolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import javax.transaction.Transactional;
 import java.util.Optional;
 

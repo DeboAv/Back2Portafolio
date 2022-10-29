@@ -1,7 +1,7 @@
-package com.daa2.security.service;
+package com.portafolio.security.service;
 
-import com.daa2.security.entity.Usuario;
-import com.daa2.security.entity.UsuarioPrincipal;
+import com.portafolio.security.entity.Usuario;
+import com.portafolio.security.entity.UsuarioPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

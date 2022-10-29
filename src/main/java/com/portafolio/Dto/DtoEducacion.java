@@ -1,4 +1,4 @@
-package com.daa2.Dto;
+package com.portafolio.Dto;
 
 import javax.validation.constraints.NotBlank;
 

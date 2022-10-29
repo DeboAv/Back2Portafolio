@@ -1,8 +1,6 @@
-package com.daa2.interfaces;
+package com.portafolio.interfaces;
 
-import com.daa2.entity.Experiencia;
-import com.daa2.entity.Persona;
-
+import com.portafolio.entity.Experiencia;
 import java.util.List;
 import java.util.Optional;
 

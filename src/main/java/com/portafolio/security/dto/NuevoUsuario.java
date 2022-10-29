@@ -1,6 +1,7 @@
-package com.daa2.security.dto;
+package com.portafolio.security.dto;
 
 import lombok.Data;
+
 import java.util.HashSet;
 import java.util.Set;
 

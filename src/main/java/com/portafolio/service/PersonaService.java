@@ -1,9 +1,10 @@
-package com.daa2.service;
+package com.portafolio.service;
 
-import com.daa2.entity.Persona;
-import com.daa2.interfaces.IPersonaService;
-import com.daa2.repository.IPersonaRepository;
+import com.portafolio.entity.Persona;
+import com.portafolio.interfaces.IPersonaService;
+import com.portafolio.repository.IPersonaRepository;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 @Service

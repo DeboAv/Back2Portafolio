@@ -1,14 +1,14 @@
-package com.daa2.security.controller;
+package com.portafolio.security.controller;
 
-import com.daa2.security.dto.JwtDTO;
-import com.daa2.security.dto.LoginUsuario;
-import com.daa2.security.dto.NuevoUsuario;
-import com.daa2.security.entity.Rol;
-import com.daa2.security.entity.Usuario;
-import com.daa2.security.enums.RolNombre;
-import com.daa2.security.jwt.JwtProvider;
-import com.daa2.security.service.RolService;
-import com.daa2.security.service.UsuarioService;
+import com.portafolio.security.dto.JwtDTO;
+import com.portafolio.security.dto.LoginUsuario;
+import com.portafolio.security.dto.NuevoUsuario;
+import com.portafolio.security.entity.Rol;
+import com.portafolio.security.entity.Usuario;
+import com.portafolio.security.enums.RolNombre;
+import com.portafolio.security.jwt.JwtProvider;
+import com.portafolio.security.service.RolService;
+import com.portafolio.security.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +20,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+
 import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
