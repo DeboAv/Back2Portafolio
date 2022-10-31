@@ -1,47 +1,25 @@
-package com.portafolio.entity;
+package com.portafolio.Dto;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.NotBlank;
 
-@Entity
-public class Persona {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //id auto generado
-    private int id;
-
-    @NotNull
-    @Size(min = 1, max=50, message = "Cantidad de caracteres incorrecta")
+public class DtoPersona {
+    @NotBlank
     private String nombre;
-
-    @NotNull
-    @Size(min = 1, max=50, message = "Cantidad de caracteres incorrecta")
+    @NotBlank
     private String apellido;
-
-    @NotNull
+    @NotBlank
     private String descripcion;
-
+    @NotBlank
     private String img;
 
-    public Persona() {
-    }
-
-    public Persona(String nombre, String apellido, String descripcion, String img) {
+    public DtoPersona(String nombre, String apellido, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
         this.img = img;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public DtoPersona() {
     }
 
     public String getNombre() {

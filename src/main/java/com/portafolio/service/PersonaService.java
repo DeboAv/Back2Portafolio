@@ -4,10 +4,12 @@ import com.portafolio.entity.Persona;
 import com.portafolio.interfaces.IPersonaService;
 import com.portafolio.repository.IPersonaRepository;
 import org.springframework.stereotype.Service;
-
+import javax.transaction.Transactional;
 import java.util.List;
+import java.util.Optional;
 
 @Service
+@Transactional
 public class PersonaService implements IPersonaService {
 
     IPersonaRepository personaRepository;
@@ -17,7 +19,7 @@ public class PersonaService implements IPersonaService {
     }
 
     @Override
-    public List<Persona> getPersona() {
+    public List<Persona> list() {
         return personaRepository.findAll();
     }
 
@@ -27,12 +29,21 @@ public class PersonaService implements IPersonaService {
     }
 
     @Override
-    public void deletePersona(Long id) {
-        personaRepository.deleteById(id);
+    public Persona findPersona(int id) {
+        return personaRepository.findById(id).orElse(null);
+    }
+
+    public Optional<Persona> getByNombre(String nombre){
+        return personaRepository.findByNombre(nombre);
     }
 
     @Override
-    public Persona findPersona(Long id) {
-        return personaRepository.findById(id).orElse(null);
+    public boolean existByNombre(String nombre) {
+        return personaRepository.existsByNombre(nombre);
     }
+
+    public boolean exist(int id){
+        return personaRepository.existsById(id);
+    }
+
 }
